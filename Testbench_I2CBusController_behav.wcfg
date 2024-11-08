@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Testbench_I2CBusController_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Testbench_I2CBusController" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="451.000001 us"></ZoomEndTime>
+      <Cursor1Time time="0.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="193"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="27" />
+   <wvobject type="logic" fp_name="/Testbench_I2CBusController/clock_12M">
+      <obj_property name="ElementShortName">clock_12M</obj_property>
+      <obj_property name="ObjectShortName">clock_12M</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_I2CBusController/reset">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_I2CBusController/new_write">
+      <obj_property name="ElementShortName">new_write</obj_property>
+      <obj_property name="ObjectShortName">new_write</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_I2CBusController/new_read">
+      <obj_property name="ElementShortName">new_read</obj_property>
+      <obj_property name="ObjectShortName">new_read</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Testbench_I2CBusController/data">
+      <obj_property name="ElementShortName">data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_I2CBusController/uut/start">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/Testbench_I2CBusController/uut/state">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/Testbench_I2CBusController/uut/clock_divider">
+      <obj_property name="ElementShortName">clock_divider</obj_property>
+      <obj_property name="ObjectShortName">clock_divider</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_I2CBusController/uut/clock_enable">
+      <obj_property name="ElementShortName">clock_enable</obj_property>
+      <obj_property name="ObjectShortName">clock_enable</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_I2CBusController/uut/clock_enable_x2_1_4">
+      <obj_property name="ElementShortName">clock_enable_x2_1_4</obj_property>
+      <obj_property name="ObjectShortName">clock_enable_x2_1_4</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_I2CBusController/uut/clock_enable_x2_3_4">
+      <obj_property name="ElementShortName">clock_enable_x2_3_4</obj_property>
+      <obj_property name="ObjectShortName">clock_enable_x2_3_4</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_I2CBusController/uut/scl_in">
+      <obj_property name="ElementShortName">scl_in</obj_property>
+      <obj_property name="ObjectShortName">scl_in</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_I2CBusController/uut/scl_reg_out">
+      <obj_property name="ElementShortName">scl_reg_out</obj_property>
+      <obj_property name="ObjectShortName">scl_reg_out</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_I2CBusController/scl">
+      <obj_property name="ElementShortName">scl</obj_property>
+      <obj_property name="ObjectShortName">scl</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_I2CBusController/sda">
+      <obj_property name="ElementShortName">sda</obj_property>
+      <obj_property name="ObjectShortName">sda</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_I2CBusController/uut/sda_in">
+      <obj_property name="ElementShortName">sda_in</obj_property>
+      <obj_property name="ObjectShortName">sda_in</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_I2CBusController/uut/sda_out">
+      <obj_property name="ElementShortName">sda_out</obj_property>
+      <obj_property name="ObjectShortName">sda_out</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Testbench_I2CBusController/uut/data_write">
+      <obj_property name="ElementShortName">data_write[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_write[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Testbench_I2CBusController/uut/bit_counter">
+      <obj_property name="ElementShortName">bit_counter[2:0]</obj_property>
+      <obj_property name="ObjectShortName">bit_counter[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_I2CBusController/uut/bit_counter_end">
+      <obj_property name="ElementShortName">bit_counter_end</obj_property>
+      <obj_property name="ObjectShortName">bit_counter_end</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_I2CBusController/ready">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_I2CBusController/error">
+      <obj_property name="ElementShortName">error</obj_property>
+      <obj_property name="ObjectShortName">error</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_I2CBusController/busy">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_I2CBusController/read_value_valid">
+      <obj_property name="ElementShortName">read_value_valid</obj_property>
+      <obj_property name="ObjectShortName">read_value_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Testbench_I2CBusController/read_value">
+      <obj_property name="ElementShortName">read_value[7:0]</obj_property>
+      <obj_property name="ObjectShortName">read_value[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_I2CBusController/uut/bus_arbitration">
+      <obj_property name="ElementShortName">bus_arbitration</obj_property>
+      <obj_property name="ObjectShortName">bus_arbitration</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_I2CBusController/uut/scl_stretching">
+      <obj_property name="ElementShortName">scl_stretching</obj_property>
+      <obj_property name="ObjectShortName">scl_stretching</obj_property>
+   </wvobject>
+</wave_config>

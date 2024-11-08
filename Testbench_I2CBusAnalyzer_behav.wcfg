@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Testbench_I2CBusAnalyzer_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Testbench_I2CBusAnalyzer" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="898.001 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="197"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject type="logic" fp_name="/Testbench_I2CBusAnalyzer/clock_12M">
+      <obj_property name="ElementShortName">clock_12M</obj_property>
+      <obj_property name="ObjectShortName">clock_12M</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_I2CBusAnalyzer/scl_master">
+      <obj_property name="ElementShortName">scl_master</obj_property>
+      <obj_property name="ObjectShortName">scl_master</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_I2CBusAnalyzer/uut/scl_master_level">
+      <obj_property name="ElementShortName">scl_master_level</obj_property>
+      <obj_property name="ObjectShortName">scl_master_level</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_I2CBusAnalyzer/scl_line">
+      <obj_property name="ElementShortName">scl_line</obj_property>
+      <obj_property name="ObjectShortName">scl_line</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_I2CBusAnalyzer/sda_master">
+      <obj_property name="ElementShortName">sda_master</obj_property>
+      <obj_property name="ObjectShortName">sda_master</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_I2CBusAnalyzer/uut/sda_master_level">
+      <obj_property name="ElementShortName">sda_master_level</obj_property>
+      <obj_property name="ObjectShortName">sda_master_level</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_I2CBusAnalyzer/sda_line">
+      <obj_property name="ElementShortName">sda_line</obj_property>
+      <obj_property name="ObjectShortName">sda_line</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_I2CBusAnalyzer/uut/sda_line_edge">
+      <obj_property name="ElementShortName">sda_line_edge</obj_property>
+      <obj_property name="ObjectShortName">sda_line_edge</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_I2CBusAnalyzer/uut/o_bus_busy">
+      <obj_property name="ElementShortName">o_bus_busy</obj_property>
+      <obj_property name="ObjectShortName">o_bus_busy</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_I2CBusAnalyzer/uut/o_bus_arbitration">
+      <obj_property name="ElementShortName">o_bus_arbitration</obj_property>
+      <obj_property name="ObjectShortName">o_bus_arbitration</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Testbench_I2CBusAnalyzer/uut/o_scl_stretching">
+      <obj_property name="ElementShortName">o_scl_stretching</obj_property>
+      <obj_property name="ObjectShortName">o_scl_stretching</obj_property>
+   </wvobject>
+</wave_config>
